@@ -1,0 +1,22 @@
+{
+  "name": "paige-project",
+  "description": "paige-projectls",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor/bower_components",
+    "test",
+    "tests",
+    "invalid-meta"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "fontawesome": "~v4.6.3",
+    "jquery": "^1.12.4"
+  },
+  "devDependencies": {}, 
+  "resolutions": {
+    "jquery": ">= 1.12.4"
+   }
+}

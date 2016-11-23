@@ -1,0 +1,12 @@
+[
+  {
+    "template": "app",
+    "files": [
+      {
+        "type": "sass",
+        "filesIn": "app.scss",
+        "version": "css/app.css"
+      }
+    ]
+  }
+]

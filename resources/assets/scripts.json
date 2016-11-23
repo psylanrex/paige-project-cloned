@@ -1,0 +1,71 @@
+[
+  {
+    "template": "app-assets",
+    "files": [
+      {
+        "type": "scripts",
+        "filesIn": [
+          "%<<<bower%/jquery/dist/jquery.js",
+          "%<<<bower%/bootstrap-sass/assets/javascripts/bootstrap.min.js"
+        ],
+        "fileOut": "public/js/app-assets.js",
+        "version": "js/app-assets.js"
+      }
+    ]
+  },
+  {
+    "template": "app",
+    "files": [
+      {
+        "type": "browserify",
+        "filesIn": "app.js",
+        "fileOut": "public/js/app.js",
+        "version": "js/app.js"
+      }
+    ]
+  },
+  {
+    "template": "app-home",
+    "files": [
+      {
+        "type": "browserify",
+        "filesIn": "/pages/home.js",
+        "fileOut": "public/js/app-home.js",
+        "version": "js/app-home.js"
+      }
+    ]
+  },
+  {
+    "template": "app-login",
+    "files": [
+      {
+        "type": "browserify",
+        "filesIn": "/pages/login.js",
+        "fileOut": "public/js/app-login.js",
+        "version": "js/app-login.js"
+      }
+    ]
+  },
+  {
+    "template": "app-register",
+    "files": [
+      {
+        "type": "browserify",
+        "filesIn": "/pages/register.js",
+        "fileOut": "public/js/app-register.js",
+        "version": "js/app-register.js"
+      }
+    ]
+  },
+  {
+    "template": "app-loan",
+    "files": [
+      {
+        "type": "browserify",
+        "filesIn": "/pages/loan.js",
+        "fileOut": "public/js/app-loan.js",
+        "version": "js/app-loan.js"
+      }
+    ]
+  }
+]

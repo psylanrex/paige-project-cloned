@@ -1,0 +1,35 @@
+[
+  {
+    "package": "Bootstrap",
+    "files": [
+      {
+        "copy": {
+          "from": "%bower%/bootstrap-sass/assets/fonts/bootstrap/**",
+          "to": "public/fonts/bootstrap"
+        }
+      }
+    ]
+  },
+  {
+    "package": "Font Awesome",
+    "files": [
+      {
+        "copy": {
+          "from": "%bower%/fontawesome/fonts/**",
+          "to": "public/fonts/fontawesome"
+        }
+      }
+    ]
+  },
+  {
+    "package": "Images",
+    "files": [
+      {
+        "copy": {
+          "from": "resources/assets/images/**",
+          "to": "public/images"
+        }
+      }
+    ]
+  }
+]

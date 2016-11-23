@@ -1,0 +1,28 @@
+
+// override font awesome
+$fa-font-path: "/fonts/fontawesome";
+
+// override bootstrap
+$icon-font-path: "/fonts/bootstrap/";
+
+
+@import "../../../vendor/bower_components/fontawesome/scss/font-awesome";
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+
+// Bootstrap
+@import "../../../vendor/bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+// pages
+@import "pages/home";
+@import "pages/login";
+@import "pages/register";
+@import "pages/loan";
+
+
+// responsive
+@import "pages/responsive";
+
