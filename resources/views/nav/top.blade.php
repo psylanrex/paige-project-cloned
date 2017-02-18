@@ -16,6 +16,7 @@
               <li class="active"><a href="">Home</a></li>
               <li><a href="#section-features">About Us</a></li>
               <li><a href="#section-services">Services</a></li>
+              <li><a href="#">Blog</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
