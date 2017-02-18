@@ -3,20 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Reason;
+use App\State;
 use App\Http\Requests;
 
 class PagesController extends Controller
 {
+
     public function index()
     {
-        return view('pages.home');
+        $reasons = Reason::pluck('name', 'id');
+        $states = State::pluck('code', 'id');
+        return view('pages.home', compact('reasons', 'states'));
     }
-    
-    public function login()
-    {
-        return view('pages.login');
-    }
+
     
     public function register()
     {
@@ -27,4 +27,5 @@ class PagesController extends Controller
     {
         return view('pages.loan');
     }
+    
 }

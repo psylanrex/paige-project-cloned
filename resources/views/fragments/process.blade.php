@@ -1,6 +1,14 @@
 <!-- Process start -->
 <section id="section-process" class="section-padding-light">
     <div class="container">
+      <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading text-center">
+                  <h2 class="big-title">Our Quick Process</h2>
+                  <p class="heading-sub">The Steps to Get Your Loan</p>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <ul id="timeline">
               <li class="work">

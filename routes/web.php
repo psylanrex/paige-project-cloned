@@ -12,9 +12,27 @@
 */
 
 Route::get('/', 'PagesController@index');  
+Route::post('/', 'ManageController@saveCustomers');
 
-Route::get('/login', 'PagesController@login'); 
 
-Route::get('/register', 'PagesController@register'); 
+Route::group(['prefix' => 'manage'], function () {
+    Route::get('', 'ManageController@login');
+    Route::post('', 'Auth\LoginController@login');
+    Route::get('/register', 'ManageController@register');
+    Route::post('/register', 'Auth\RegisterController@create');
 
-Route::get('/loan', 'PagesController@loan'); 
+    Route::group(['middleware' => 'auth'], function () {
+        Route::get('/home', "ManageController@index");
+        Route::get('/customers', 'ManageController@getCustomers');
+    });
+    Auth::routes();
+});
+
+// Route::get('/login', 'PagesController@login'); 
+
+// Route::get('/register', 'PagesController@register'); 
+
+// Route::get('/loan', 'PagesController@loan'); 
+
+
+Route::get('/home', 'HomeController@index');

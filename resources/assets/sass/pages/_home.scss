@@ -230,7 +230,7 @@ body.home {
                     width: 100%;
                     height: 40px;
                     padding: 6px 12px;
-                    color: #adadad;
+                    color: #566059;
                 }
             }
         }
@@ -238,6 +238,19 @@ body.home {
     }
     
     #section-process {
+      .section-heading {
+        margin-bottom: 20px;
+        .big-title {
+          font-size: 45px;
+          line-height: 55px;
+          color: #232323;
+          font-weight: 400;
+          margin-bottom: 20px;
+          text-transform: capitalize;
+          font-family: 'Raleway', sans-serif;
+        }
+      }
+      
         /* -------------------------------------
          * For horizontal version, set the
          * $vertical variable to false

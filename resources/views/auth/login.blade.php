@@ -1,21 +1,13 @@
-@extends('layout.app')
+@extends('layouts.app')
 
-@section('title', 'Login Page')
-
-@section('head')
-    
-@stop
-
-@section('body')
-    <section id="content">
-    	<br>
-        <center>
-            <div class="panel">
-                <div class="panel-heading">
-                    <h3>Login Page</h3>
-                </div>
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Login</div>
                 <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/manage') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
@@ -62,7 +54,7 @@
                                     Login
                                 </button>
 
-                                <a class="btn btn-link" href="{{ url('/password/reset') }}">
+                                <a class="btn btn-link" href="{{ url('/manage/password/reset') }}">
                                     Forgot Your Password?
                                 </a>
                             </div>
@@ -70,10 +62,7 @@
                     </form>
                 </div>
             </div>
-        </center>
-    </section>
-@stop
-
-@section('footer')
-    <script src="{!! \App\Helpers\AssetsHelper::elixir('js/app-login.js') !!}" type="text/javascript"></script>
-@stop
+        </div>
+    </div>
+</div>
+@endsection

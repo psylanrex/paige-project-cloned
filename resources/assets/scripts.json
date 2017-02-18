@@ -6,7 +6,8 @@
         "type": "scripts",
         "filesIn": [
           "%<<<bower%/jquery/dist/jquery.js",
-          "%<<<bower%/bootstrap-sass/assets/javascripts/bootstrap.min.js"
+          "%<<<bower%/bootstrap-sass/assets/javascripts/bootstrap.min.js",
+          "%<<<bower%/sweetalert/dist/sweetalert.min.js"
         ],
         "fileOut": "public/js/app-assets.js",
         "version": "js/app-assets.js"

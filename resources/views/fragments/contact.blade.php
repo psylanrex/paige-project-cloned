@@ -37,7 +37,7 @@
                             </div>
                             <div class="contact-inner">
                                 <h4>Address</h4>
-                                <p>2233 Example Road, Irvince, CA 99999</p>
+                                <p>8 Corporate Park # 35, Irvine, CA 92606</p>
                             </div>
                         </div>
                     </div>
@@ -45,15 +45,30 @@
             </div>
            
             <div class="col-md-8 col-sm-12 form-wrap">
-                <form id=application-form>
+                @if (count($errors) > 0)
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+                @if (session('message'))
+                    <div class="alert alert-success">
+                        {{ session('message') }}
+                    </div>
+                @endif
+                <form id=application-form action="" method="POST">
+                    {{ csrf_field() }}
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="firstName" placeholder="First Name" class="form-control"/>
+                            <input type="text" name="firstName" placeholder="First Name" class="form-control" required />
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="lastName" placeholder="Last Name" class="form-control"/>
+                            <input type="text" name="lastName" placeholder="Last Name" class="form-control" required />
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -73,7 +88,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
-                            <input type="text" name="state" placeholder="State" class="form-control"/>
+                            {!! Form::select('state', $states, null, ['class' => 'form-control', 'placeholder' => 'Select a state']) !!}
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -83,38 +98,31 @@
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="phone" placeholder="Phone" class="form-control"/>
+                            <input type="text" name="phone" placeholder="Phone" class="form-control" required />
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="email" name="email" placeholder="Email" class="form-control"/>
+                            <input type="email" name="email" placeholder="Email" class="form-control" required />
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="loanAmoun" placeholder="Loan Amount Requested" class="form-control"/>
+                            <input type="text" name="loanAmount" placeholder="Loan Amount Requested" class="form-control" required />
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="howSoon" placeholder="How Soon Do You Need The Money" class="form-control"/>
+                            <input type="text" name="howSoon" placeholder="How Soon Do You Need The Money" class="form-control" required />
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
-                            <select name="reason" id="loan-reason" class="form-control">
-                                <option value="">How will you use the loan?</option>
-                                <option value="1">Buying equipment</option>
-                                <option value="2">Hiring employees</option>
-                                <option value="3">Marketing</option>
-                                <option value="4">Remodeling or expansion</option>
-                                <option value="5">Working capital</option>
-                                <option value="6">Refinancing best</option>
-                                <option value="7">Purchasing inventory</option>
-                                <option value="8">Other</option>
-                            </select>
+                            {!! Form::select('reason', $reasons, null, ['class' => 'form-control', 'id' => 'loan-reason', 'placeholder' => 'How would you use the loan?']) !!}
                         </div>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-info" type="submit">Submit</button>
                     </div>
                 </form>
             </div>

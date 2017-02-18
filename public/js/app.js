@@ -19067,26 +19067,8 @@ window.Vue.http.options.emulateJSON = true;
 // X-HTTP-Method-Override
 window.Vue.http.options.emulateHTTP = true;
 
-require('./components/top-nav');
+// require('./components/top-nav');
 
-},{"./components/top-nav":9,"vue":6,"vue-moment":3,"vue-resource":4,"vue-router":5}],8:[function(require,module,exports){
-module.exports = '<nav class="navbar navbar-fixed-top navbar-default">\n        <div class=container>\n          <div class="navbar-header">\n            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->\n              <span class="sr-only">Toggle navigation</span>\n              <span class="icon-bar"></span>\n              <span class="icon-bar"></span>\n              <span class="icon-bar"></span>\n            </button> \n            <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> {{ example }}</a>\n          </div> <!-- End navbar-header -->\n          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">\n            <ul class="nav navbar-nav">\n              <li class="active"><a href="">Home</a></li>\n              <li><a href="">Services</a></li>\n              <li><a href="">About Us</a></li>\n              <li><a href="">Contact</a></li>\n            </ul>\n          </div>\n        </div>\n      </nav>';
-},{}],9:[function(require,module,exports){
-'use strict';
-
-var Example = Vue.extend({
-    template: require('./top-nav.html'),
-    data: function data() {
-        return {
-            example: "Vue: Project Name"
-        };
-    },
-    ready: function ready() {},
-    methods: {}
-});
-
-Vue.component('top-nav', Example);
-
-},{"./top-nav.html":8}]},{},[7]);
+},{"vue":6,"vue-moment":3,"vue-resource":4,"vue-router":5}]},{},[7]);
 
 //# sourceMappingURL=app.js.map

@@ -31,5 +31,19 @@
         }
       }
     ]
+  },
+  {
+    "package": "sweetalert",
+    "files": [
+      {
+        "copy": {
+          "from": "%bower%/sweetalert/dist/sweetalert.css",
+          "rename": {
+            "extname": ".scss"
+          },
+          "to": "%bower%/sweetalert/dist/sass"
+        }
+      }
+    ]
   }
 ]

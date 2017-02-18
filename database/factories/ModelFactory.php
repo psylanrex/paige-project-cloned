@@ -22,3 +22,22 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(App\Customer::class, function(Faker\Generator $faker) {
+    return [
+        'first_name' => $faker->firstName,
+        'last_name' => $faker->lastName,
+        'business_name' => $faker->company,
+        'business_address' => $faker->streetAddress,
+        'city' => $faker->city,
+        'state_id' => $faker->numberBetween($min = 1, $max = 52),
+        'zip_code' => $faker->postcode,
+        'phone' => $faker->numberBetween($min = 1000000000, $max = 9999999999),
+        'email' => $faker->email,
+        'loan_amount' => $faker->biasedNumberBetween($min = 1000, $max = 200000),
+        'created_at' => $faker->dateTime($max = 'now', $timezone = date_default_timezone_get()),
+        'updated_at' => $faker->dateTime($max = 'now', $timezone = date_default_timezone_get())
+    ]; 
+});
+
+
