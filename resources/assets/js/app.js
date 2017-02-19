@@ -36,5 +36,3 @@ window.Vue.http.options.emulateJSON = true;
 
 // X-HTTP-Method-Override
 window.Vue.http.options.emulateHTTP = true;
-
-// require('./components/top-nav');
