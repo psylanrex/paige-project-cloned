@@ -11,7 +11,7 @@
                                 <div class="slider-caption text-center">
                                     <p class="slider-sub">Loan Professionals </p>
                                     <h2 class="slider-title">Welcome to Capital Direct</h2>
-                                    <p>
+                                    <p class="disclaimer">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!
                                     </p>

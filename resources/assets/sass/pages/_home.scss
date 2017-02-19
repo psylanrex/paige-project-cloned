@@ -10,7 +10,8 @@ body.home {
     
     #section-slider {
         // background: #189BD5;
-        background: url('../images/businesswoman.jpg');
+        background: url('/images/home-hero.jpg');
+        background-position: center;
         background-size: cover;
         height: 765px;
     }
@@ -33,7 +34,7 @@ body.home {
         p.slider-sub {
             width: 35%;
             margin: 0 auto;
-            background: #189BD5;
+            background: #ad1124;
             color: #FFF;
             display: block;
             padding: 8px 0px;
@@ -42,11 +43,14 @@ body.home {
         }
         h2.slider-title {
             font-size: 60px;
-            color: #FFF;
+            color: #b31126;
             line-height: 65px;
             letter-spacing: 0px;
             text-transform: uppercase;
             margin: 40px 0px;
+        }
+        p.disclaimer {
+          color: #110f14;
         }
     }
     
