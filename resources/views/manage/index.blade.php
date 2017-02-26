@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layout.manage')
 
 @section('title', 'Manage | Home')
 
@@ -44,7 +44,7 @@
                 <li class="current"><a href=""><i class="glyphicon glyphicon-home"></i> Home</a></li>
                 <li><a href=""><i class="glyphicon glyphicon-calendar"></i> Calendar</a></li>
                 <li><a href=""><i class="glyphicon glyphicon-stats"></i> Statistics (Charts)</a></li>
-                <li><a href="/manage/customers"><i class="glyphicon glyphicon-list"></i> Tables</a></li>
+                <li><a href="/manage/customers"><i class="glyphicon glyphicon-list"></i> Customers Info</a></li>
             </ul>
          </div>
 	  </div>

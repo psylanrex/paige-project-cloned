@@ -31,23 +31,32 @@ body.home {
         width: 90%;
         margin: 0 auto;
         
+        h2.slider-title {
+          text-shadow: 4px 2px 8px #383838;
+          font-size: 60px;
+          font-weight: bold;
+          color: #189BD5;
+          line-height: 65px;
+          letter-spacing: 0px;
+          text-transform: uppercase;
+          margin: 100px 0px 40px 0px;
+        }
+        
+        
         p.slider-sub {
             width: 35%;
             margin: 0 auto;
-            background: #ad1124;
-            color: #FFF;
+            background: #FFFFFF;
+            color: #189BD5;
             display: block;
             padding: 8px 0px;
             font-weight: 700;
-            margin-top: 50px;
+            margin-top: 25px;
         }
-        h2.slider-title {
-            font-size: 60px;
-            color: #b31126;
-            line-height: 65px;
-            letter-spacing: 0px;
-            text-transform: uppercase;
-            margin: 40px 0px;
+        a.btn.btn-primary {
+          background: #189BD5;
+          border-color: #189BD5;
+          margin-top: 55px;
         }
         p.disclaimer {
           color: #110f14;
@@ -111,15 +120,9 @@ body.home {
         }
     }
     
-    #section-middle {
+    #section-about {
         background-color: #189BD5;
-        // background: url('../images/calculator2.jpg');
         background-size: cover;
-        
-        // .blue-overlay {
-        //     background-color: #189BD5;
-        //     opacity: 0.5;
-        // }
         
         .middle-inner {
             width: 60%;
@@ -153,6 +156,7 @@ body.home {
     }
     
     #section-services {
+      padding-bottom: 0;
       ul.services {
         li {
           display: inline-block;
@@ -235,6 +239,10 @@ body.home {
                     height: 40px;
                     padding: 6px 12px;
                     color: #566059;
+                }
+                button#submit-btn {
+                  background-color: #189BD5;
+                  border-color: #189BD5;
                 }
             }
         }

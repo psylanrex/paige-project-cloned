@@ -10,8 +10,8 @@
 
 @section('body')
     @include('fragments.slider')
-    @include('fragments.features')
-    @include('fragments.middle')
+    @include('fragments.about-us')
+    @include('fragments.qualities')
     @include('fragments.services')
     @include('fragments.process')
     @include('fragments.contact')

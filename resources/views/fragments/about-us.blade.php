@@ -1,6 +1,6 @@
 <!-- Middle start -->
 
-<section id="section-middle" class="section-padding">
+<section id="section-about" class="section-padding">
     <div class="parallax-overlay blue-overlay"></div>
     <div class="container">
         <div class="row">

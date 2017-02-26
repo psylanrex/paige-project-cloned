@@ -19067,8 +19067,6 @@ window.Vue.http.options.emulateJSON = true;
 // X-HTTP-Method-Override
 window.Vue.http.options.emulateHTTP = true;
 
-// require('./components/top-nav');
-
 },{"vue":6,"vue-moment":3,"vue-resource":4,"vue-router":5}]},{},[7]);
 
 //# sourceMappingURL=app.js.map

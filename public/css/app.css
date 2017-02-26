@@ -8916,22 +8916,28 @@ body.home {
     padding: 200px 0px 160px;
     width: 90%;
     margin: 0 auto; }
-    body.home .slider-caption p.slider-sub {
-      width: 35%;
-      margin: 0 auto;
-      background: #ad1124;
-      color: #FFF;
-      display: block;
-      padding: 8px 0px;
-      font-weight: 700;
-      margin-top: 50px; }
     body.home .slider-caption h2.slider-title {
+      text-shadow: 4px 2px 8px #383838;
       font-size: 60px;
-      color: #b31126;
+      font-weight: bold;
+      color: #189BD5;
       line-height: 65px;
       letter-spacing: 0px;
       text-transform: uppercase;
-      margin: 40px 0px; }
+      margin: 100px 0px 40px 0px; }
+    body.home .slider-caption p.slider-sub {
+      width: 35%;
+      margin: 0 auto;
+      background: #FFFFFF;
+      color: #189BD5;
+      display: block;
+      padding: 8px 0px;
+      font-weight: 700;
+      margin-top: 25px; }
+    body.home .slider-caption a.btn.btn-primary {
+      background: #189BD5;
+      border-color: #189BD5;
+      margin-top: 55px; }
     body.home .slider-caption p.disclaimer {
       color: #110f14; }
   body.home .section-padding {
@@ -8977,18 +8983,18 @@ body.home {
       color: #666;
       font-family: 'Lato', sans-serif;
       margin: 0 0 10px; }
-  body.home #section-middle {
+  body.home #section-about {
     background-color: #189BD5;
     background-size: cover; }
-    body.home #section-middle .middle-inner {
+    body.home #section-about .middle-inner {
       width: 60%;
       margin: 0 auto; }
-      body.home #section-middle .middle-inner h2 {
+      body.home #section-about .middle-inner h2 {
         color: #FFF;
         margin-bottom: 20px;
         letter-spacing: 0px;
         font-weight: 600; }
-      body.home #section-middle .middle-inner p {
+      body.home #section-about .middle-inner p {
         line-height: 28px;
         font-size: 14px;
         font-weight: 400;
@@ -8996,7 +9002,7 @@ body.home {
         color: #FFF;
         margin-bottom: 25px;
         font-size: 16px; }
-      body.home #section-middle .middle-inner #see-services-btn {
+      body.home #section-about .middle-inner #see-services-btn {
         border: 3px solid #FFF;
         background: #FFF;
         color: #2A2A2A;
@@ -9005,32 +9011,34 @@ body.home {
         font-weight: 700;
         border-radius: 0px;
         text-transform: uppercase; }
-  body.home #section-services ul.services li {
-    display: inline-block;
-    width: 33%;
-    font-weight: 700;
-    padding: 5px;
-    vertical-align: top; }
-    body.home #section-services ul.services li .service-box {
-      padding: 20px;
-      min-height: 300px; }
-      body.home #section-services ul.services li .service-box .icon-box {
-        text-align: center;
-        margin-bottom: 10px;
-        max-height: 100px;
-        margin-bottom: 35px; }
-        body.home #section-services ul.services li .service-box .icon-box i {
-          color: #36c1ff; }
-      body.home #section-services ul.services li .service-box .details {
-        text-align: center; }
-        body.home #section-services ul.services li .service-box .details .details-title {
-          min-height: 33px; }
-        body.home #section-services ul.services li .service-box .details p {
-          font-weight: 400;
-          font-size: 12px; }
-          body.home #section-services ul.services li .service-box .details p i {
-            font-size: 8px;
+  body.home #section-services {
+    padding-bottom: 0; }
+    body.home #section-services ul.services li {
+      display: inline-block;
+      width: 33%;
+      font-weight: 700;
+      padding: 5px;
+      vertical-align: top; }
+      body.home #section-services ul.services li .service-box {
+        padding: 20px;
+        min-height: 300px; }
+        body.home #section-services ul.services li .service-box .icon-box {
+          text-align: center;
+          margin-bottom: 10px;
+          max-height: 100px;
+          margin-bottom: 35px; }
+          body.home #section-services ul.services li .service-box .icon-box i {
             color: #36c1ff; }
+        body.home #section-services ul.services li .service-box .details {
+          text-align: center; }
+          body.home #section-services ul.services li .service-box .details .details-title {
+            min-height: 33px; }
+          body.home #section-services ul.services li .service-box .details p {
+            font-weight: 400;
+            font-size: 12px; }
+            body.home #section-services ul.services li .service-box .details p i {
+              font-size: 8px;
+              color: #36c1ff; }
   @media screen and (max-width: 993px) {
     body.home #section-services ul.services li {
       display: inline-block;
@@ -9055,6 +9063,9 @@ body.home {
     height: 40px;
     padding: 6px 12px;
     color: #566059; }
+  body.home #contact .form-wrap form#application-form button#submit-btn {
+    background-color: #189BD5;
+    border-color: #189BD5; }
   body.home #section-process {
     /* -------------------------------------
          * For horizontal version, set the
@@ -9225,9 +9236,6 @@ body.login {
 
 body.register {
   background-color: #ffb5c6; }
-
-body.loan {
-  background-color: #ffffb5; }
 
 /* xl Large Screen */
 @media screen and (max-width: 991px) {

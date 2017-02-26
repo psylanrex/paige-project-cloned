@@ -16,6 +16,10 @@ class ManageController extends Controller
     
     public function login()
     {
+        // redirect to the home if its already user session 
+        if(\Auth::check()){
+            return redirect("/manage/home");
+        }
         return view('auth.login');
     }
     
@@ -26,7 +30,7 @@ class ManageController extends Controller
     
     public function getCustomers()
     {
-        $customers = Customer::with('state')->get();
+        $customers = Customer::with('state')->orderBy('created_at', 'desc')->get();
         return view('manage.customers', compact('customers'));
     }
     

@@ -20,6 +20,7 @@ Route::group(['prefix' => 'manage'], function () {
     Route::post('', 'Auth\LoginController@login');
     Route::get('/register', 'ManageController@register');
     Route::post('/register', 'Auth\RegisterController@create');
+    Route::get('/logout', 'Auth\LoginController@logout');
 
     Route::group(['middleware' => 'auth'], function () {
         Route::get('/home', "ManageController@index");
@@ -35,4 +36,4 @@ Route::group(['prefix' => 'manage'], function () {
 // Route::get('/loan', 'PagesController@loan'); 
 
 
-Route::get('/home', 'HomeController@index');
+// Route::get('/home', 'HomeController@index');

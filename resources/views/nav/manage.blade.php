@@ -9,15 +9,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button> 
-            <a class="navbar-brand" href="/">Capital Direct</a>
+            <a class="navbar-brand" href="/">Manage Capital Direct</a>
           </div> <!-- End navbar-header -->
           <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="">Home</a></li>
-              <li><a href="#section-about">About Us</a></li>
-              <li><a href="#section-services">Services</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="active"><a href="/manage/home">Home</a></li>
+              <li><a href="/manage/customers">Customers</a></li>
+              <li><a href="/manage/logout">Logout</a></li>
             </ul>
           </div>
         </div>
