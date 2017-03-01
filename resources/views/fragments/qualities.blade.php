@@ -6,7 +6,6 @@
             <div class="col-md-12">
                 <div class="section-heading text-center">
                     <p class="heading-sub">What to Expect from Us</p>
-                    <h2 class="big-title">Qualities we have</h2>
                 </div>
             </div>
         </div>
@@ -14,7 +13,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="feature-box">
                     <div class="feature-inner">
-                        <h3 class="num">01.</h3>
+                        <h3 class="num"></h3>
                         <h4>Experienced</h4>
                         <p>
                             With over a decade of experience, our team will closely monitor every transaction to assure your 
@@ -26,11 +25,11 @@
             <div class="col-md-4 col-sm-6">
                 <div class="feature-box">
                     <div class="feature-inner">
-                        <h3 class="num">02.</h3>
+                        <h3 class="num"></h3>
                         <h4>Knowledgeable</h4>
                         <p>
-                            Knowledge comes with experience. Our team is trained to guide each merchant through our "simple" process 
-                            for a brighter tomorrow.
+                            Experience ultimately brings knowledge. Our team is trained to guide each merchant through our "simple" process 
+                            to expedite approvals.
                         </p>
                     </div>
                 </div>
@@ -38,12 +37,11 @@
             <div class="col-md-4 col-sm-6">
                 <div class="feature-box">
                     <div class="feature-inner">
-                        <h3 class="num">03.</h3>
+                        <h3 class="num"></h3>
                         <h4>Friendly</h4>
                         <p>
-                            At Capital Direct, we know that the one thing all people who give great service have in common is 
-                            that they have a genuine customer friendly attitude. We are proud to say that we screen for that 
-                            when constructing our team.
+                            At Capital Direct, we pride ourselves in knowing that we have the friendliest staff around. 
+                            We are proud to say that we screen for that when constructing our team.
                         </p>
                     </div>
                 </div>
@@ -51,11 +49,11 @@
             <div class="col-md-4 col-sm-6">
                 <div class="feature-box">
                     <div class="feature-inner">
-                        <h3 class="num">04.</h3>
-                        <h4>Well-connected</h4>
+                        <h3 class="num"></h3>
+                        <h4>Well-Connected</h4>
                         <p>
-                            With the many years of experience that our team has, 
-                            we have the resources and the connections to efficiently deliver results to our merchants.
+                            Thoughout the years, our team has developed excellent relationships with our partners.  We
+                            utilize these resources and connections to efficiently deliver results to our merchants.
                         </p>
                     </div>
                 </div>
@@ -63,12 +61,12 @@
             <div class="col-md-4 col-sm-6">
                 <div class="feature-box">
                     <div class="feature-inner">
-                        <h3 class="num">05.</h3>
+                        <h3 class="num"></h3>
                         <h4>Fast</h4>
                         <p>
-                            We also know that your time is valuable. With innovations and the latest technologies, 
-                            Capital Direct delivers fast and reliable service by automating work flow. In return, 
-                            it leads to faster access to your funds.
+                            We know that your time is valuable. Through innovation and state-of-the-art technology, 
+                            Capital Direct delivers fast and reliable service. Our aim is to get you access to funds 
+                            as soon as possible.
                         </p>
                     </div>
                 </div>
@@ -76,11 +74,11 @@
             <div class="col-md-4 col-sm-6">
                 <div class="feature-box">
                     <div class="feature-inner">
-                        <h3 class="num">06.</h3>
+                        <h3 class="num"></h3>
                         <h4>Efficient</h4>
                         <p>
-                            Efficiency is doing something the best possible way. Our team is trained to 
-                            work in a well-organized and competent way to produce results for our merchants.
+                            Efficiency is doing something the best possible way. Our team strives to work 
+                            in a well-organized and competent manner to maximize results for our merchants.
                         </p>
                     </div>
                 </div>

@@ -3,7 +3,7 @@
 @section('title', 'Manage | Home')
 
 @section('head')
-    
+     
 @stop
 
 @section('body')

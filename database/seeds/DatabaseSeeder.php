@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         // DB::table('customers')->truncate();
         // $this->call(CustomersTableSeeder::class);
-        // $this->call(StatesTableSeeder::class);
-        // $this->call(ReasonsTableSeeder::class);
+        $this->call(StatesTableSeeder::class);
+        $this->call(ReasonsTableSeeder::class);
     }
 }

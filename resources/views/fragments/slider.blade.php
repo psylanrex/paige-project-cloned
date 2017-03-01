@@ -9,8 +9,7 @@
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="slider-caption text-center">
-                                    <h2 class="slider-title">Welcome to Capital Direct</h2>
-                                    <p class="slider-sub">Loan Professionals </p>
+                                    <p class="slider-sub">Small Business Loan Solutions </p>
                                     <a href="" class="btn btn-primary">See Our Services</a>
                                 </div>
                             </div>
