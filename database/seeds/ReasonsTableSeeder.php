@@ -11,7 +11,7 @@ class ReasonsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('states')->insert(
+        DB::table('reasons')->insert(
             array(
                 array('name' => 'Buying equipment'),
                 array('name' => 'Hiring employees'),
