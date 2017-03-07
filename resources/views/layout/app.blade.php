@@ -11,7 +11,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Paige Project - @yield('title')</title>
+    <title>Capital Direct - @yield('title')</title>
     <?php /*<link rel="icon" type="image/ico" href="assets/images/favicon.ico"/> */ ?>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -8,8 +8,7 @@
                 <div class="middle-inner text-center">
                     <h2>ABOUT US</h2>
                     <p>
-                        Modern business lending is our business model. Here at Capital Direct, we know as a business owner, your time is precious. So we've automated the process and have cut the approval time. We understand what drives our customers and want them to be satisfied and successful. At Capital Direct, we're dedicated on changing how small businesses access funds. From working capital loans to equipment leasing and financing. If your business needs it-we can help you get it-FAST!
-                    </p>
+                        Our mission is to perfect modern business lending.  Here at Capital Direct, we know that as a business owner, your time is precious. We pride ourselves in having one of the shortest turn around times in the business. We understand what drives our customers and want them to be satisfied and successful. At Capital Direct, we're dedicated on changing how small businesses access funds. From working capital loans to equipment leasing and financing. If your business needs it-we can help you get it-FAST!                    </p>
                     <a href="" id="see-services-btn" class="btn btn-info">see services</a>
                 </div>
             </div>
