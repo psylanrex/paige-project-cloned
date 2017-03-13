@@ -5,7 +5,6 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-heading text-center">
-                    <p class="heading-sub">Our valued services</p>
                     <h2 class="big-title">What we finance</h2>
                 </div>
             </div>

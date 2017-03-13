@@ -8898,6 +8898,22 @@ body.home {
   font-size: 14px;
   font-family: Lato, sans-serif;
   font-weight: normal; }
+  body.home nav.navbar.navbar-fixed-top.navbar-default .container .navbar-header .brand {
+    position: relative;
+    width: 275px; }
+    body.home nav.navbar.navbar-fixed-top.navbar-default .container .navbar-header .brand .brand-name {
+      position: absolute;
+      top: -11px;
+      left: 0; }
+      body.home nav.navbar.navbar-fixed-top.navbar-default .container .navbar-header .brand .brand-name a.navbar-brand {
+        color: #189BD5; }
+    body.home nav.navbar.navbar-fixed-top.navbar-default .container .navbar-header .brand .brand-caption {
+      position: absolute;
+      left: 1px;
+      top: 25px; }
+      body.home nav.navbar.navbar-fixed-top.navbar-default .container .navbar-header .brand .brand-caption p {
+        color: #189BD5;
+        font-size: 0.93em; }
   body.home #section-slider {
     background: url("/images/home-hero.jpg");
     background-position: center;
@@ -8941,7 +8957,7 @@ body.home {
     body.home .slider-caption p.disclaimer {
       color: #110f14; }
   body.home .section-padding {
-    padding: 90px 0px; }
+    padding: 30px 0px 15px 0px; }
   body.home .section-heading {
     postion: relative;
     margin-bottom: 60px; }
@@ -9011,6 +9027,8 @@ body.home {
         font-weight: 700;
         border-radius: 0px;
         text-transform: uppercase; }
+  body.home #section-features {
+    padding-top: 55px; }
   body.home #section-services {
     padding-bottom: 0; }
     body.home #section-services ul.services li {
@@ -9067,6 +9085,7 @@ body.home {
     background-color: #189BD5;
     border-color: #189BD5; }
   body.home #section-process {
+    margin-top: -75px;
     /* -------------------------------------
          * For horizontal version, set the
          * $vertical variable to false
