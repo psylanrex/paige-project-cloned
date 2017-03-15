@@ -11,10 +11,15 @@ body.home {
     nav.navbar.navbar-fixed-top.navbar-default {
       .container {
         .navbar-header {
+          
           .brand {
             position: relative;
-            width: 275px;
-            
+            width: 355px;
+            .logo {
+              img.logo-img {
+                max-height: 50px;
+              }
+            }
             .brand-name {
               position: absolute;
               top: -11px;
@@ -25,11 +30,11 @@ body.home {
             }
             .brand-caption {
               position: absolute;
-              left: 1px;
+              left: 130px;
               top: 25px;
               p {
-                color: #189BD5;
-                font-size: 0.93em;
+                color: #86ab6a;
+                font-size: 0.85em;
               }
             }
           }

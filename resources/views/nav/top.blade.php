@@ -9,9 +9,14 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button> 
+            
             <div class="brand">
-              <div class=brand-name><a class="navbar-brand" href="/">Capital Direct</a></div>
-              <div class=brand-caption><p>Small Business Loan Solutions</p></div>
+              <div class="logo">
+                <a href="/"><img src="/images/logo.jpg" class="logo-img"></img></a>
+              </div>
+              <div class=brand-caption>
+                <p>Small Business Loan Solutions</p>
+                </div>
             </div>
           </div> <!-- End navbar-header -->
           <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
