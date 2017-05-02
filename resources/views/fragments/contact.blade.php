@@ -28,7 +28,7 @@
                             </div>
                             <div class="contact-inner">
                                 <h4>Email</h4>
-                                <p>contact@capital.com</p>
+                                <p>info@capitaldirect.org</p>
                             </div>
                         </div>
                         <div class="contact-box contact-page">
