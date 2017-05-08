@@ -38,7 +38,7 @@
                             <div class="contact-inner">
                                 <h4>Address</h4>
                                 <p>8 Corporate Park Suite 300</p>
-                                <p>Irvine, CA 92614</p>
+                                <p>Irvine, CA 92606</p>
                             </div>
                         </div>
                     </div>
