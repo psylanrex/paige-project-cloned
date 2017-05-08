@@ -15,7 +15,7 @@
                 <a href="/"><img src="/images/logo.jpg" class="logo-img"></img></a>
               </div>
               <div class=brand-caption>
-                <p>Small Business Loan and Merchant Solutions</p>
+                <p>Business Loan and Merchant Solutions</p>
                 </div>
             </div>
           </div> <!-- End navbar-header -->
