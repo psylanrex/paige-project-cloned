@@ -44,7 +44,7 @@
                   <span class="circle"></span>
                 </div>
                 <div class="content">
-                    <h4>In as fast as 72 hours</h4>
+                    <h4>In as fast as 24 hours</h4>
                     <p>
                         Your underwriter will review your application and may schedule a quick call to get to know your business.
                     </p>
@@ -57,9 +57,9 @@
                   <span class="circle"></span>
                 </div>
                 <div class="content">
-                    <h4>In as soon as 10 days</h4>
+                    <h4>In as soon as 24 hours</h4>
                     <p>
-                        Once approved, you’ll receive funds in your account within days.
+                        Once approved, you’ll receive funds in your account within 24 hours.
                     </p>
                 </div>
               </li>
