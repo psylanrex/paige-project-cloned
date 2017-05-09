@@ -8921,6 +8921,13 @@ body.home {
     background-position: center;
     background-size: cover;
     height: 765px; }
+    body.home #section-slider #float-button-container #apply-button {
+      background-color: #86ab6a;
+      border: none;
+      z-index: 99;
+      position: fixed;
+      right: 2%;
+      bottom: 10%; }
   body.home .parallax-overlay .black-overlay {
     position: absolute;
     top: 0px;

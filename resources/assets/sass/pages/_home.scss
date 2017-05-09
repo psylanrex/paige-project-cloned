@@ -47,6 +47,16 @@ body.home {
         background-position: center;
         background-size: cover;
         height: 765px;
+        #float-button-container {
+          #apply-button {
+            background-color: #86ab6a;
+            border: none;
+            z-index: 99;
+            position: fixed;
+            right: 2%;
+            bottom: 10%;
+          }
+        }
     }
     .parallax-overlay .black-overlay {
         position: absolute;

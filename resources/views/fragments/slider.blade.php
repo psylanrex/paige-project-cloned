@@ -16,6 +16,9 @@
                     </div>
                 </div>
             </div>
+            <div id="float-button-container">
+                <a class="btn btn-lg btn-primary" id="apply-button" href="#contact">Apply Now</a>
+            </div>
         </div>
     </div>
 </section>
