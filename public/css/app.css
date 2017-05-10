@@ -8922,8 +8922,8 @@ body.home {
     background-size: cover;
     height: 765px; }
     body.home #section-slider #float-button-container #apply-button {
-      background-color: #86ab6a;
-      border: none;
+      background-color: #189BD5;
+      border: 1px solid white;
       z-index: 99;
       position: fixed;
       right: 2%;
